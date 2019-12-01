@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
             if (inputId=="admin"){
                 if(inputPw=="pw123"){
-                Toast.makeText(this,"관리자입니다.",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"관리자입니다.",Toast.LENGTH_SHORT).show()
                 }else{
                     Toast.makeText(this,"관리자 비번이 틀렸습니다.",Toast.LENGTH_SHORT).show()
                 }
